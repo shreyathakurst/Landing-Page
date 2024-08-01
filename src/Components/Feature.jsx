@@ -2,9 +2,9 @@ import React from 'react'
 
 function Feature({reverse}) {
   return (
-    <div>
-      <div className={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'}  gap-36 px-20`}>
-      <div className=' w-[2500px]'>
+    <div className='w-full mb-10 '>
+      <div className={`flex md:${reverse ? 'flex-row-reverse' : 'flex-row'} flex-col  md:gap-36 gap-10 px-20`}>
+      <div className=' md:w-[2500px] w-[250px]'>
         <img className='w-[100%]' src="https://media.istockphoto.com/id/1288965449/vector/graphic-designer-creating-logo-design-vector-flat-isometric-illustration.jpg?s=612x612&w=0&k=20&c=G-Nhw42gJpuf72LBeh7dXHZddr7UV7bTt72ZEsqevzY=" alt="" />
       </div>
       <div className=' flex flex-col justify-center items-start gap-7'>
